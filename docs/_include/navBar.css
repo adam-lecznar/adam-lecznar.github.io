@@ -1,0 +1,29 @@
+/*This is the styling file for the navigation bar*/
+
+/*Nav Bar Styling*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+ul li {
+    float: left;
+
+}
+
+/*Link styling*/
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Link Styling when mouse hovers on it*/
+ul li a:hover {
+    background-color: gray;
+}
